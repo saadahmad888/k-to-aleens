@@ -180,6 +180,12 @@
         padding: 15px 10px;
         margin-bottom: 50px;
     }
+    .main-banner-item .bg-box .heading{
+        font-size: 30px;
+    }
+    .banner-card-box .card .title{
+        font-size: 22px;
+    }
 }
 @media only screen and (max-width: 576px){
     .review-modal-box{
