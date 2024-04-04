@@ -216,6 +216,12 @@
     .blog-detail-page-sec .content-box .sub-heading{
         font-size: 18px;
     }
+    .blog-detail-page-sec{
+        padding: 30px 0 50px 0;
+    }
+    #main-nav .container{
+        min-height: 51px;
+    }
 }
 @media only screen and (max-width: 576px){
     .review-modal-box{
