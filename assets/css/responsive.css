@@ -130,17 +130,30 @@
 
 
       .combo-box .content-box{
-        left: 32%;
+        display: flex;
+        flex-direction: column-reverse;
+        left: 50%;
+        top: unset;
+        bottom: 40px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 100%;
+        /* transform: unset; */
+        rotate: unset;
+        text-align: center;
       }
 
       .blog-detail-page-sec .img-box img{
         height: auto;
       }
       .combo-box .content-box .text{
-        font-size: 45px;
+        font-size: 35px;
+        margin-bottom: 0;
+        font-weight: 600;
       }
       .combo-box .content-box .sub-text{
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 400;
       }
       /* .combo-box .content-box .text{
         font-size: 18px;
@@ -185,6 +198,10 @@
     }
     .banner-card-box .card .title{
         font-size: 22px;
+        font-weight: 600;
+    }
+    #main-nav .navbar-brand img{
+        width: 140px;
     }
 }
 @media only screen and (max-width: 576px){
@@ -193,6 +210,9 @@
     }
     .banner-side-text{
         display: none;
+    }
+    .banner-card-box{
+        height: 320px;
     }
 }
 @media only screen and (max-width: 400px){
