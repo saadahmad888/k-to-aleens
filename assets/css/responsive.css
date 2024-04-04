@@ -210,6 +210,12 @@
     .competitive-item .img-box img {
         width: 45px;
     }
+    .blog-detail-page-sec .content-box .heading{
+        font-size: 26px;
+    }
+    .blog-detail-page-sec .content-box .sub-heading{
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width: 576px){
     .review-modal-box{
