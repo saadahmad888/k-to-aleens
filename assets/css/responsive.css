@@ -222,6 +222,12 @@
     #main-nav .container{
         min-height: 51px;
     }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .main-blog-page-sec .container{
+        overflow-y: hidden;
+    }
 }
 @media only screen and (max-width: 576px){
     .review-modal-box{
