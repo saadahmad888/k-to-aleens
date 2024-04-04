@@ -207,6 +207,9 @@
         font-size: 14px;
         font-weight: 600;
     }
+    .competitive-item .img-box img {
+        width: 45px;
+    }
 }
 @media only screen and (max-width: 576px){
     .review-modal-box{

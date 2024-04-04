@@ -1412,6 +1412,7 @@ a{
 .promotion-card-sec .banner-card-box{
     position: relative;
     top: unset;
+    height: auto;
 }
 
 
