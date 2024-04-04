@@ -483,6 +483,7 @@ a{
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
+    height: 185px;
 }
 .banner-card-box .card a{
     background-color: var(--white);
@@ -516,6 +517,9 @@ a{
     font-size: 30px;
     color: var(--white);
     font-weight: 700;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
 }
 .banner-card-box .card.one .title{
     color: var(--primary);
