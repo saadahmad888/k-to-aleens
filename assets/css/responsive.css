@@ -203,6 +203,10 @@
     #main-nav .navbar-brand img{
         width: 140px;
     }
+    .banner-card-box .card .sub-text{
+        font-size: 14px;
+        font-weight: 600;
+    }
 }
 @media only screen and (max-width: 576px){
     .review-modal-box{
